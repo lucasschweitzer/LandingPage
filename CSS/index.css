@@ -3,6 +3,7 @@ body{
     height: 100%; 
     margin: 0;
     padding: 0;
+    background-color: #303030;
 }
 
 #section1{
@@ -20,6 +21,7 @@ body{
 
 #language{
     position: absolute;
+    margin-top: 2%;
     margin-left: 10%;
 }
 
@@ -30,6 +32,7 @@ body{
     height: 300px;
     text-align: left;
     font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: -18%;
     margin-left: 35%;
     background: rgba(101,31,255,.7);
@@ -61,21 +64,15 @@ body{
     margin-left: 35%;
 }
 
-#aboutme{
+#cv{
     position: absolute;
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 10%;
-    width: 1000px;
-    height: 350px;
-    background: rgba(101,31,255,.7);
-    color: white;
-    font-size: 3ch;
-    margin-left: 25%;
+    margin-left: 30%;
+    margin-top: 6px;
 }
 
+
 .projects{
-    margin-top: -2%;
+    margin-top: -15%;
     position: relative;
     width: 100%;
     height: 1550px;
@@ -85,12 +82,14 @@ body{
 #title{
     text-align: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects p{
     text-align: center;
     color: white;
     width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects img{
@@ -103,27 +102,32 @@ body{
     position: absolute;
     margin-left: 40%;
     margin-top: -10%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cbankText{
     position: absolute;
     margin-left: 40%;
     margin-top: -12%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #nutriText{
     position: absolute;
     margin-left: 40%;
     margin-top: -10%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .skillsSection{
-    margin-top: -2%;
+    margin-top: -20%;
+    margin-bottom: 10%;
     position: relative;
     width: 100%;
     height: 500px;
     color: white;
     background-color: #303030;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .skillsSection p{
@@ -132,44 +136,62 @@ body{
 
 .skillsSection h1, h2{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #androidText{
     position: absolute;
     margin-left: 40%;
     margin-top: -10%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
-/* Container for skill bars */
 .container {
     margin-left: 41%;
-  width: 35%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 35%; 
+  background-color: #ddd; 
   border-radius: 50px;
 }
 
 .skills {
     border-radius: 50px;
-  text-align: right; /* Right-align text */
-  padding-top: 5px; /* Add top padding */
-  padding-bottom: 4px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right; 
+  padding-top: 5px; 
+  padding-bottom: 4px; 
+  color: white; 
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: -10px;
 }
 
-.html {width: 50%; height: 5px; background-color: #651FFF;} /* Green */
-.css {width: 50%; height: 5px; background-color: #651FFF;} /* Blue */
-.js {width: 25%; height: 5px; background-color: #651FFF;} /* Red */
-.sql {width: 50%; height: 5px; background-color: #651FFF;} /* Dark Grey */
-.java {width: 50%; height: 5px; background-color: #651FFF;} /* Dark Grey */
+.html {width: 50%; height: 5px; font-family: Arial, Helvetica, sans-serif; background-color: #651FFF;}
+.css {width: 50%; height: 5px; font-family: Arial, Helvetica, sans-serif; background-color: #651FFF;} 
+.js {width: 25%; height: 5px; font-family: Arial, Helvetica, sans-serif; background-color: #651FFF;} 
+.sql {width: 50%; height: 5px; font-family: Arial, Helvetica, sans-serif; background-color: #651FFF;} 
+.java {width: 50%; height: 5px; font-family: Arial, Helvetica, sans-serif; background-color: #651FFF;} 
 
 .teste{
     border: 1px solid #651FFF;
     border-radius: 50px;
-
-    
-    
 }
+
+.footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(101,31,255,.7);
+    height: 150px;
+    padding: 15px;
+
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
